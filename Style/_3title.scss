@@ -1,0 +1,69 @@
+.title {
+    width: 1281px;
+    height: 600px;
+    background: #F5F5F5;
+    border-radius: 10px;
+    margin-left: 79px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 95px 0 51px 62px;
+    margin-bottom: 40px;
+
+    &-O‘zbekistonda {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 41px;
+        line-height: 53px;
+        margin-bottom: 10px;
+    }
+    
+    &-O‘zbekiston {
+        font-family: 'DM Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 30px;
+    }
+}
+
+input {
+    width: 514px;
+    height: 62px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 17px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.wheels {
+    width: 834px;
+    height: 454px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+
+    &-image {
+        width: 834px;
+        height: 454px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        &-shadow {
+            width: 483px;
+            height: 51px;
+            background: rgba(0, 0, 0, 0.4);
+            filter: blur(30px);
+            align-self: flex-end;
+        }
+    }
+}

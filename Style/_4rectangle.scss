@@ -1,0 +1,55 @@
+.rectangle-row {
+    max-width: 1440px;
+    display: flex;
+    width: 1281px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 25px; */
+    margin-left: 81px;
+}
+
+.car-seat {
+    width: 400px;
+    height: 140px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1.5px solid #F2F2F2;
+    border-radius: 5px;
+
+    &-box {
+        width: 161px;
+        height: 138px;
+        background: #F9F9F9;
+        border-radius: 4px 0px 0px 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &-header {
+        width: 193px;
+        height: 23px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+
+    &-text {
+        width: 190px;
+        height: 36px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px; 
+        color: rgba(0, 0, 0, 0.6);
+    }
+}
+
+
+
