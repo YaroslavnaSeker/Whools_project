@@ -192,4 +192,63 @@ input {
   font-size: 14px;
   line-height: 18px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.group {
+  width: 1274px;
+  height: 804px;
+  left: 80px;
+  top: 950px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 81px;
+}
+.group-menu {
+  width: 380px;
+  height: 732px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.group-menu-tipe {
+  list-style-type: none;
+}
+.group-menu-position {
+  width: 358px;
+  height: 76px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.group-menu-position :hover {
+  background: #4200FF;
+  border-radius: 5px;
+  transition: 0.7s;
+  width: 358px;
+  height: 76px;
+}
+.group-menu-position-wheel {
+  width: 36px;
+  height: 36px;
+}
+.group-menu-position-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 20px;
+  /* identical to box height, or 91% */
+  text-align: center;
+  color: #FFFFFF;
+}
+.group-menu-position-vector {
+  background: rgba(0, 0, 0, 0.9);
+}
+.group-menu-position-vector :hover {
+  background: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
