@@ -4,8 +4,10 @@
     left: 80px;
     top: 950px;
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     margin-top: 81px;
+    margin-left: 80px;
+    margin-right: 86px;
     
     &-menu {
         width: 380px;
@@ -16,26 +18,30 @@
         flex-direction: column;
 
         &-tipe {
-            list-style-type: none;
-        }
+            list-style: none;
+            padding: 20px 30px 20px 20px;
 
-        &-position {
-            width: 358px;
-            height: 76px;
-            background: #F7F7F7;
-            border-radius: 5px;
-            margin-top: 10px;
-            border: none;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            
-            :hover {
+            &:hover {
                 background: #4200FF;
                 border-radius: 5px;
-                transition: 0.7s;
-                width: 358px;
-                height: 76px;
+                transition: 0.3s;
+                cursor: pointer;
+
+                & a {
+                    color: #FFFFFF;
+                }
+            }
+
+            &:hover a > span {
+                color: white
+            }
+
+            &-link {
+                display: flex;
+                text-decoration: none;
+                width: 100%;
+                gap: 19px;
+                align-items: center;
             }
 
             &-wheel {
@@ -53,21 +59,118 @@
 
                 text-align: center;
                 color: rgba(0, 0, 0, 0.9);
-
-                :hover {
-                    color: ;
-                }
+                text-decoration: none;
             }
 
             &-vector {
-                background: rgba(0, 0, 0, 0.9);
+                margin-left: 159px;
                 
-                :hover {
-                    background: #FFFFFF;
+                &:hover {
+                    color: #FFFFFF; 
+                    // Не понимаю почему не включается 
+                    // белый цвет у стрелочки.
                 }
-            }    
+            } 
+
+            &-vectorsecond {
+                margin-left: 184px;
+                
+                &:hover {
+                    color: #FFFFFF; 
+                    // Не понимаю почему не включается 
+                    // белый цвет у стрелочки.
+                }           
+            }
+
+            &-seat {
+                width: 59px;
+                height: 40px;
+                margin-left: -12px;
+            }
+
+            &-vectorthird {
+                margin-left: 124px;
+                
+                &:hover {
+                    color: #FFFFFF; 
+                    // Не понимаю почему не включается 
+                    // белый цвет у стрелочки.
+                }           
+            }
+
+            &-vectorfourth {
+                margin-left: 87px;
+                
+                &:hover {
+                    color: #FFFFFF; 
+                    // Не понимаю почему не включается 
+                    // белый цвет у стрелочки.
+                }           
+            } 
+        }
+    } 
+    
+    &-box {
+        margin-left:  20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 20px;
+
+        &-inner {
+            width: 278px;
+            height: 356px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
         }
 
-    }
-}
+        &-discribtion {
+            padding: 20px;
+        }
 
+        &-text {
+            margin-bottom: 24px;
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 22px;
+            color: #000000;
+        }
+
+        &-image {
+            width: 278px;
+            height: 229px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #F7F7F7;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        &-stars {
+           display: flex;
+           justify-content: space-between;
+
+           &-only {
+            margin-right: 4px;
+           }
+
+           &-price {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23px;
+            color: #4200FF;
+           }
+        }
+    }
+}  
