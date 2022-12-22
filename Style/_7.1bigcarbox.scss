@@ -1,0 +1,47 @@
+.bigcarbox {
+    width: 1280px;
+    height: 358px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #F7F7F7;
+    border-radius: 5px;
+    margin-bottom: 80px;
+
+    &-text {
+        padding: 80px 12px 80px 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &-title {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+    }
+
+    &-button {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        border: 2px solid black;
+        border-radius: 5px;
+        padding: 10px 35px 10px 25px;
+        margin-top: 44px;
+
+        &-image {
+            margin-left: 21px;
+        }
+    }
+
+    &-image {
+        width: 694px;
+        height: 358px;
+        border-radius: 5px;
+        margin-right: 4px;
+    }
+}
