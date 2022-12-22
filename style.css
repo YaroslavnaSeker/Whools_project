@@ -30,12 +30,22 @@
   font-size: 36.4444px;
   line-height: 47px;
 }
+.header-logo-underline {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36.4444px;
+  line-height: 47px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
 .header-circle {
   width: 27px;
   height: 27px;
   border: 1px solid transparent;
   background-color: #F2F3F5;
   border-radius: 50%;
+  z-index: -1;
 }
 .header-navigation {
   margin-left: 80px;
@@ -148,7 +158,6 @@ input {
   max-width: 1440px;
   display: flex;
   width: 1281px;
-  display: flex;
   justify-content: space-between;
   /* gap: 25px; */
   margin-left: 81px;
@@ -288,6 +297,7 @@ input {
   align-items: stretch;
   justify-content: space-between;
   gap: 20px;
+  max-width: calc(100% - 400px);
 }
 .group-box-inner {
   width: 278px;
@@ -335,4 +345,88 @@ input {
   font-size: 20px;
   line-height: 23px;
   color: #4200FF;
+}
+
+.service {
+  max-width: 1280px;
+  height: 140px;
+  margin: 81px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-block {
+  width: 400px;
+  height: 140px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  background: #FFFFFF;
+  border: 1.5px solid #F2F2F2;
+  border-radius: 5px;
+}
+.service-block-size {
+  width: 435px;
+}
+.service-image {
+  width: 161px;
+  height: 138px;
+  background: #F9F9F9;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-image-size {
+  width: 126px;
+  height: 63px;
+}
+.service-describtion {
+  padding: 36px 30px 35px 14px;
+}
+.service-header {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 10px;
+}
+.service-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.service-phone {
+  width: 156px;
+  height: 139px;
+  background: #F9F9F9;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-phone-size {
+  width: 187px;
+  height: 103px;
+}
+.service-time {
+  width: 160px;
+  height: 139px;
+  background: #F9F9F9;
+  border-radius: 4px 0px 0px 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-time-size {
+  width: 75px;
+  height: 47px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
 }/*# sourceMappingURL=style.css.map */

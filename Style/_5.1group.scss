@@ -118,6 +118,7 @@
         align-items: stretch;
         justify-content: space-between;
         gap: 20px;
+        max-width: calc(100% - 400px);
 
         &-inner {
             width: 278px;
