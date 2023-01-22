@@ -75,6 +75,7 @@
 .header-images {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .header-images-box {
@@ -515,6 +516,7 @@ input {
   align-items: stretch;
   justify-content: space-between;
   gap: 20px;
+  margin-bottom: 80px;
 }
 .addition-objects-imagebox {
   width: 304px;
@@ -558,4 +560,45 @@ input {
   font-size: 20px;
   line-height: 23px;
   color: #4200FF;
+}
+
+.blendlar {
+  width: 1280px;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.blendlar-title {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  margin-bottom: 30px;
+}
+.blendlar-conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 19px;
+  margin-bottom: 120px;
+}
+.blendlar-box {
+  width: 305px;
+  height: 180px;
+  background: #F7F7F7;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.blendlar-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
 }/*# sourceMappingURL=style.css.map */
