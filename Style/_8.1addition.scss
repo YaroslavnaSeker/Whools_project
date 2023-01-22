@@ -1,0 +1,100 @@
+.addition {
+    width: 1280px;
+    margin-left: 80px;
+
+    &-mahsulotlar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+
+        &-left {
+            font-family: 'DM Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 42px;
+
+        }
+
+        &-right {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &-word {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 28px;
+                line-height: 36px;
+                margin-right: 16px;
+            }
+            
+            &-vector {
+                width: 11px;
+                height: 17px;
+            }
+        }
+    }
+
+    &-objects {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+        gap: 20px;
+        
+        &-imagebox {
+            width: 304px;
+            height: 356px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        &-image {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background: #F7F7F7;
+            border-radius: 5px 5px 0px 0px;
+            width: 304px;
+            height: 229px;
+
+        }
+
+        &-description {
+            padding: 20px;
+
+            &-text {
+                font-family: 'DM Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 22px;
+                margin-bottom: 24px;
+            }
+
+            &-stars {
+                display: flex;
+                justify-content: space-between;
+     
+                &-only {
+                 margin-right: 6px;
+                }
+     
+                &-price {
+                 font-family: 'Roboto';
+                 font-style: normal;
+                 font-weight: 500;
+                 font-size: 20px;
+                 line-height: 23px;
+                 color: #4200FF;
+                }
+            }
+        }
+
+    }
+}
