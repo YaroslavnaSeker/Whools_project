@@ -53,9 +53,7 @@
   font-weight: 500;
   font-size: 22px;
   line-height: 29px;
-  /* identical to box height */
   color: rgba(0, 0, 0, 0.9);
-  display: flex;
   gap: 31px;
   display: flex;
   justify-content: flex-start;
@@ -735,4 +733,46 @@ input {
   display: flex;
   justify-content: flex-end;
   gap: 26px;
+}
+
+.description {
+  width: 1281px;
+  margin-left: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px 300px 40px 60px;
+  background: #F9F9F9;
+}
+.description-menu-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-bottom: 40px;
+  gap: 60px;
+}
+.description-body-textone {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 30px;
+}
+.description-body-texttwo {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: rgba(0, 0, 0, 0.8);
 }/*# sourceMappingURL=style.css.map */
