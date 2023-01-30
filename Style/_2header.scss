@@ -1,13 +1,14 @@
 .header {
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 23px 80px 20px 79px;
 
+    &-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
     &-logo {
-        width: 93px;
-        height: 47px;
         display: flex;
         align-items: center;
 
@@ -16,16 +17,16 @@
             font-style: normal;
             font-weight: 700;
             font-size: 36.4444px;
-            line-height: 47px;
         }
 
         &-underline {
             font-family: 'DM Sans';
             font-style: normal;
             font-weight: 700;
-            font-size: 36.4444px;
-            line-height: 47px;
-            text-decoration-line: underline;
+            font-size: 28px;
+            line-height: 55px;
+            text-decoration: underline;
+            text-underline-offset: 5 px;
         }
     }
 
@@ -36,12 +37,9 @@
         background-color: #F2F3F5;
         border-radius: 50%;
         z-index: -1;
-        
     }
 
     &-navigation {
-        margin-left: 80px;
-        margin-right: 40px;
            
         &-menu {
             list-style-type: none;
@@ -54,18 +52,22 @@
             color: rgba(0, 0, 0, 0.9);
             display: flex;
             gap: 31px;
-            
-            &-push {
-                font-family: 'DM Sans';
-                font-style: normal;
-                font-weight: 500;
-                font-size: 18px;
-                margin-left: 194px;
-                color: #000000;
-                text-decoration: none;
-                }
-            }
+            display: flex;
+            justify-content: flex-start;
         }
+    }
+
+    &-number {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    }
 
     &-images {
         display: flex;
