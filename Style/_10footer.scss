@@ -16,6 +16,7 @@
         display: flex;
         flex-direction: column;
         margin-right: 115px;
+        position: relative;
     
         &-logo {
             display: flex;
@@ -47,7 +48,9 @@
                 border: 1px solid transparent;
                 background-color: #F2F3F5;
                 border-radius: 50%;
-                // z-index: -1;
+                position: absolute;
+                right: 35px;
+                top: 8px;
             }
         }
 
